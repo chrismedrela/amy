@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     replaces = [('workshops', '0087_renaming_column_repository_tags'), ('workshops', '0088_alter_help_text_of_repository_metadata_field'), ('workshops', '0089_renaming_column_tag_changes_detected'), ('workshops', '0090_alter_help_text_of_metadata_all_changes'), ('workshops', '0091_rename_column_tags_changed'), ('workshops', '0092_alter_help_text_of_metadata_changed')]
 
     dependencies = [
-        ('workshops', '0086_auto_20160416_0905'),
+        ('workshops', '0001_squashed_0086_auto_20160416_0905'),
     ]
 
     operations = [
